@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>website</title>
+<style>
+header {
+  padding: 10px;
+}
+
+nav {
+  float: right;
+}
+
+.top-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.top-nav li {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.top-nav li a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 5px 10px;
+
+}
+
+body {
+  background-color: #001C30;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items in the center */
+  justify-content: center;
+  height: 100vh;
+}
+
+.green-button {
+  background-color: green;
+  color: white;
+  font-size: large;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 20px; /* Adjust margin between buttons */
+}
+
+.a {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end; 
+  width:250%;
+  margin-top: -12%;
+  margin-bottom: 10px;
+}
+.buttons-container{
+ position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+</style>
+</head>
+<body>
+<div class="page-bg"></div>
+
+<div class="animation-wrapper">
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+</div>
+<header>
+  <nav>
+    <ul class="top-nav">
+      <li><a href="#">BRANDS</a></li>
+      <li><a href="#">INFLUENCER</a></li>
+      <li><a href="#">PRICING</a></li>
+      <li><a href="#">BLOGS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="center-container">
+  <div class="a">
+    <h1>Discover.Connect.Collaborate.</h1>
+    <p>An ecosystem for Social media Influencers and Brands</p>
+  </div>
+  <div class="buttons-container">
+    <button class="green-button">I am an influencer</button>
+    <button class="green-button">I am a brand</button>
+  </div>
+  <div class="img-container">
+    <img src="top3.png" alt="Image description">
+  </div>
+</div>
+</body>
+</html>
